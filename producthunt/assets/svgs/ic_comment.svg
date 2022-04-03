@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.833" height="12.833" viewBox="0 0 12.833 12.833">
+    <defs>
+        <style>
+            .cls-1{fill:#555770}
+        </style>
+    </defs>
+    <g id="answers" transform="translate(-.583 -.583)">
+        <path id="Union" d="M3.5 4.083a.583.583 0 1 0 0 1.167h5.25a.583.583 0 0 0 0-1.167z" class="cls-1" transform="translate(.583 .583)"/>
+        <path id="Union-2" d="M2.917 7a.583.583 0 0 1 .583-.583h5.25a.583.583 0 0 1 0 1.167H3.5A.583.583 0 0 1 2.917 7z" class="cls-1" transform="translate(.583 .583)"/>
+        <path id="Union-3" d="M3.5 8.75a.583.583 0 1 0 0 1.167h2.917a.583.583 0 1 0 0-1.167z" class="cls-1" transform="translate(.583 .583)"/>
+        <path id="Union-4" d="M0 6.417v5.833a.583.583 0 0 0 .583.583h5.834A6.417 6.417 0 1 0 0 6.417zm1.167 0a5.25 5.25 0 1 1 5.25 5.25h-5.25z" class="cls-1" transform="translate(.583 .583)"/>
+    </g>
+</svg>
