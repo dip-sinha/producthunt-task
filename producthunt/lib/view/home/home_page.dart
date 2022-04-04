@@ -104,7 +104,7 @@ class HomePage extends StatelessWidget {
                   controller: _controller.scrollController,
                   child: GroupedViewWidget(
                     posts: list,
-                    isFromCached: _controller.isNetworkActive,
+                    isFromCached: _controller.isNetworkError,
                   )
                   //  SliverToBoxAdapter(
                   //    child: toDayTile,

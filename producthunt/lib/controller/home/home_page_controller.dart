@@ -23,13 +23,11 @@ class HomePageController extends GetxController {
   late ProductList productList;
   int count = 0;
   Function()? scrollListener;
-  bool isNetworkActive = false;
 
   @override
   void onInit() {
     // TODO: implement onInit
     super.onInit();
-    isNetworkActive = isNetworkError;
      checkPositionOfScroll();
     callApiOrGetCacheData();
     //fetchTodaysPostV2(dateTime:dateTime.value);
@@ -91,7 +89,6 @@ class HomePageController extends GetxController {
       filteredPostsList.assignAll(temp.values.toList());
       }
       //productList = response;
-      isNetworkActive = true;
       if(dateTime!.day == DateTime.now().day)
       _saveDataToLocalDb(response);
     }}
